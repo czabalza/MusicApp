@@ -1,0 +1,18 @@
+andy = User.create!(email: 'andy@example.com', password: 'andyandy')
+lucy = User.create!(email: 'lucy@example.com', password: 'lucylucy')
+emily = User.create!(email: 'emily@example.com', password: 'emilyemily')
+cindy = User.create!(email: 'cindy@example.com', password: 'cindycindy')
+bobby = User.create!(email: 'bobby@example.com', password: 'bobbybobby')
+estefan = User.create!(email: 'estefan@example.com', password: 'estefan1')
+
+band1 = Band.create!(name: "Band1")
+band2 = Band.create!(name: "Band2")
+band3 = Band.create!(name: "Band3")
+band4 = Band.create!(name: "Band4")
+band5 = Band.create!(name: "Band5")
+
+album1 = Album.create!(name: "Album1", band_id: 1, album_type: "Live")
+album2 = Album.create!(name: "Album2", band_id: 1, album_type: "Live")
+album3 = Album.create!(name: "Album3", band_id: 1, album_type: "Studio")
+album4 = Album.create!(name: "Album4", band_id: 5, album_type: "Live")
+album5 = Album.create!(name: "Album5", band_id: 5, album_type: "Studio")
